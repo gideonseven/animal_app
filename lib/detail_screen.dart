@@ -1,8 +1,6 @@
 import 'package:animal_app/model/Animal.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
-
-
+import 'package:flutter/material.dart';
 
 class DetailScreen extends StatelessWidget {
   final Animal animal;
@@ -167,7 +165,8 @@ class _DetailWebPageState extends State<DetailWebPage> {
                                 ),
                               ),
                               Container(
-                                padding: const EdgeInsets.symmetric(vertical: 16.0),
+                                padding:
+                                    const EdgeInsets.symmetric(vertical: 16.0),
                                 child: Text(
                                   widget.animal.description,
                                   textAlign: TextAlign.justify,
